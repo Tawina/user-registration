@@ -1,2 +1,2 @@
 # online-register
-online registration
+user-registration
