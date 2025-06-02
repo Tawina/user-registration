@@ -5,8 +5,9 @@ import logoo from './assets/logoo.png'
 
 const Navbar = () => {
   return (
-    // <div className="w-64 min-h-screen border-r border-gray-500 bg-white p-4">
-    <div className="fixed top-0 left-0 h-screen w-64 border-r border-gray-500 bg-white p-4 z-50">
+    
+    <div className="fixed top-0 left-0 h-screen w-[10%] border-r border-gray-500 bg-white p-4 z-50">
+
         <div className="flex justify-center">
             <img src={logoo} alt="Logoo" className="h-12 w-auto" />
         </div>

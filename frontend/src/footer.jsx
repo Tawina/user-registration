@@ -3,10 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return (
-           
-        // <footer className="bg-white border-t border-gray-200 py-10 px-6 md:px-20 text-sm">
-
-          <footer className="ml-[20%] w-[80%] min-h-screen flex items-center justify-center bg-gray-100 p-10"> 
+            <footer className="ml-[10%] w-[90vw] min-h-screen flex items-center justify-center bg-gray-100 p-10">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Branding and Newsletter */}
                 <div>
