@@ -4,8 +4,8 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-            <div className="ml-[10%] w-[90vw] min-h-screen flex items-center justify-center bg-gray-100 p-10">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="w-[90vw] flex items-center justify-center bg-gray-100 p-10">
+            <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Branding and Newsletter */}
                 <div>
                 <div className="flex items-center space-x-2">
