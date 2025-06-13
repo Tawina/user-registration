@@ -25,10 +25,11 @@ const Navbar = () => {
                 <span>Home</span>
             </Link>
 
-            <div className="flex items-center gap-3 hover:text-purple-600 cursor pointer">
-                <Briefcase size={20}/>
-                <span>Service</span>
-            </div>
+          <a href="/service" className="flex items-center gap-3 hover:text-purple-600 cursor-pointer">
+          <Briefcase size={20} />
+          <span>Service</span>
+          
+          </a>
 
              {/* <div className="flex items-center gap-3 hover:text-purple-600 cursor-pointer"> */}
                 <Link to="/register" className="flex items-center gap-3 hover:text-purple-600 cursor-pointer">
@@ -38,14 +39,16 @@ const Navbar = () => {
                 </Link>
             {/* </div> */}
 
-            <div className="flex items-center gap-3 hover:text-purple-600 cursor-pointer">
-                <FilePlus size={20} />  
-                <span>More...</span>
-            </div>
-        </nav>
+     
+          <a href="/more" className="flex items-center gap-3 hover:text-purple-600 cursor-pointer">
+            <FilePlus size={20} />
+            <span>More...</span> 
+          </a>
 
+  
+      </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

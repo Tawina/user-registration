@@ -3,11 +3,9 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return (
-           
-        // <footer className="bg-white border-t border-gray-200 py-10 px-6 md:px-20 text-sm">
-
-          <footer className="ml-[20%] w-[80%] min-h-screen flex items-center justify-center bg-gray-100 p-10"> 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <footer>
+            <div className="w-[90vw] flex items-center justify-center bg-gray-100 p-10">
+            <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Branding and Newsletter */}
                 <div>
                 <div className="flex items-center space-x-2">
@@ -54,9 +52,10 @@ class Footer extends Component {
                 </ul>
                 </div>
             </div>
-
+            </div>
             {/* Footer Bottom */}
-            <div className="mt-10 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
+            {/* <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs"> */}
+            <div className="ml-[10%] w-[90vw] flex items-center justify-center bg-gray-100">
                 <p>© Online Reg Inc. All Rights Reserved 2025</p>
                 <a href="#" className="mt-2 md:mt-0 hover:underline">Terms & Conditions</a>
             </div>

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Navbar from '../components/ui/navigation/Navbar';
 // import Navbar from '../Navbar';
 
-class Register extends Component {
-    render() {
+const Register =() => {
+   
        
            
 
@@ -168,7 +168,7 @@ class Register extends Component {
 
 
         );
-    }
+    
 }
 
 export default Register;
